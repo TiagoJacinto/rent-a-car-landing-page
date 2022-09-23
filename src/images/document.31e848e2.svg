@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="97px" height="151px" viewBox="0 0 97 151" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 10</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="site-2" transform="translate(-752.000000, -4049.000000)">
+            <g id="Group-16" transform="translate(574.000000, 3963.000000)">
+                <g id="Group-10" transform="translate(179.000000, 87.000000)">
+                    <g id="Group-9">
+                        <rect id="Rectangle" stroke="#9A7719" fill="#FDE29A" fill-rule="nonzero" x="0" y="8" width="84" height="120" rx="2"></rect>
+                        <path d="M6.77316222,11 L79,11 C80.1045695,11 81,11.8954305 81,13 L81,119.488286 C81,120.592856 80.1045695,121.488286 79,121.488286 C78.3369481,121.488286 77.7169976,121.159676 77.3448097,120.610937 L5.11797188,14.1226508 C4.49794894,13.2085145 4.73637499,11.9648326 5.65051138,11.3448097 C5.98179016,11.1201162 6.37287137,11 6.77316222,11 Z" id="Rectangle" fill="#F8D372" fill-rule="nonzero"></path>
+                        <rect id="Rectangle" fill="#9A7719" x="10" y="29" width="64" height="2" rx="1"></rect>
+                        <rect id="Rectangle" fill="#9A7719" x="10" y="89" width="64" height="2" rx="1"></rect>
+                        <rect id="Rectangle" fill="#9A7719" x="10" y="96" width="64" height="2" rx="1"></rect>
+                        <rect id="Rectangle" fill="#9A7719" x="10" y="39" width="34" height="2" rx="1"></rect>
+                        <rect id="Rectangle" fill="#9A7719" x="10" y="49" width="44" height="2" rx="1"></rect>
+                        <rect id="Rectangle" fill="#9A7719" x="10" y="59" width="24" height="2" rx="1"></rect>
+                        <rect id="Rectangle" fill="#9A7719" x="10" y="69" width="58" height="2" rx="1"></rect>
+                        <circle id="Oval" stroke="#9A7719" fill="#FDE29A" fill-rule="nonzero" cx="80" cy="15" r="15"></circle>
+                        <polyline id="Path-5" stroke="#9A7719" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(81.000000, 15.888889) rotate(-17.000000) translate(-81.000000, -15.888889) " points="74 14.3333333 77.1111111 19.7777778 88 12"></polyline>
+                    </g>
+                    <ellipse id="Oval" fill="#E8E8EE" cx="42.9753086" cy="145" rx="34.1851852" ry="5"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

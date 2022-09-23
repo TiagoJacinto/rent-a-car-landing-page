@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-233.000000, -1519.000000)">
+            <g id="Group-8" transform="translate(233.000000, 1519.000000)">
+                <circle id="Oval" stroke="#AD810F" cx="11.5" cy="11.5" r="11"></circle>
+                <path d="M21,11.1923882 C21,6.11557236 16.7467051,2 11.5,2 C6.25329488,2 2,6.11557236 2,11.1923882 C2,16.2692039 21,16.2692039 21,11.1923882 Z" id="Oval" fill="#E1A817"></path>
+                <path d="M11.7279934,10.0745852 L13.2429222,16.1343002 C13.4520902,16.9709722 12.9433977,17.8187931 12.1067256,18.0279611 C11.9828623,18.058927 11.8556688,18.0745852 11.7279934,18.0745852 L11.7279934,18.0745852 C10.8655716,18.0745852 10.1664406,17.3754542 10.1664406,16.5130324 C10.1664406,16.385357 10.1820989,16.2581635 10.2130647,16.1343002 L11.7279934,10.0745852 Z" id="Rectangle" stroke="#AD810F" fill="#FBC843" transform="translate(11.728152, 14.074585) rotate(43.000000) translate(-11.728152, -14.074585) "></path>
+                <rect id="Rectangle" fill="#AD810F" x="11" y="3" width="1" height="3" rx="0.5"></rect>
+                <rect id="Rectangle" fill="#AD810F" transform="translate(15.000000, 5.437822) rotate(-330.000000) translate(-15.000000, -5.437822) " x="14.5" y="3.93782217" width="1" height="3" rx="0.5"></rect>
+                <rect id="Rectangle" fill="#AD810F" transform="translate(8.000000, 5.437822) rotate(-30.000000) translate(-8.000000, -5.437822) " x="7.5" y="3.93782217" width="1" height="3" rx="0.5"></rect>
+                <rect id="Rectangle" fill="#AD810F" transform="translate(5.437822, 8.000000) rotate(-60.000000) translate(-5.437822, -8.000000) " x="4.93782217" y="6.5" width="1" height="3" rx="0.5"></rect>
+                <rect id="Rectangle" fill="#AD810F" transform="translate(17.562178, 8.000000) rotate(-300.000000) translate(-17.562178, -8.000000) " x="17.0621778" y="6.5" width="1" height="3" rx="0.5"></rect>
+                <rect id="Rectangle" fill="#AD810F" transform="translate(18.500000, 11.500000) rotate(-270.000000) translate(-18.500000, -11.500000) " x="18" y="10" width="1" height="3" rx="0.5"></rect>
+                <rect id="Rectangle" fill="#AD810F" transform="translate(4.500000, 11.500000) rotate(-270.000000) translate(-4.500000, -11.500000) " x="4" y="10" width="1" height="3" rx="0.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
