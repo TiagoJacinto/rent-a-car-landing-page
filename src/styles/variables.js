@@ -1,10 +1,12 @@
 export const variables = {
   fs: {
     small: '0.6rem',
-    medium: '1.2rem',
-    large: '1.5rem',
+    medium: '1.5rem',
+    large: '1.9rem',
     largeLarger: '2.5rem',
     larger: '3.2rem',
+    lg: '4.6rem',
+    xl: '6rem',
     largest: '9rem',
   },
   fw: {
@@ -22,11 +24,12 @@ export const variables = {
     small: '60px',
     medium: '110px',
     large: '150px',
-    larger: '155px',
+    larger: '185px',
   },
   color: {
     bg: '#FBC843',
     txt: '#414A69',
+    txtDark: '#2B3144',
     txtLight: '#4B5168',
   },
   ds: {
