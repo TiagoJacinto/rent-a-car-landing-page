@@ -25,6 +25,11 @@ export const SectionTitle = styled(motion.h1)`
   }
 `;
 
+export const Paragraph = styled(motion.p)`
+  font-size: ${v.fs.medium};
+  font-family: ${v.ff.default};
+`;
+
 export const LeftCol = styled.div`
   position: relative;
   @media (min-width: ${v.ds.laptop}) {
