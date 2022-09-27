@@ -4,9 +4,9 @@ import { variables as v } from '../../styles/variables';
 
 export const Grid = styled.div`
   position: relative;
-  align-items: center;
   display: flex;
   flex-direction: column-reverse;
+  align-items: center;
   @media (min-width: ${v.ds.laptop}) {
     margin-block: 150px 60px;
     display: grid;
@@ -18,9 +18,13 @@ export const Grid = styled.div`
 export const MainImage = styled(motion.img)`
   padding-top: ${v.size.medium};
   margin-inline: auto;
-  width: 50%;
+  width: 60%;
   @media (max-width: ${v.ds.laptop}) {
     margin-top: 13%;
+  }
+  @media (max-width: ${v.ds.tablet}) {
+    width: 90%;
+    padding-top: ${v.size.small};
   }
 `;
 
@@ -47,6 +51,5 @@ export const TextColumn = styled(motion.div)`
 
 export const Images = styled(motion.div)`
   position: relative;
-  width: 100%;
   background-color: ${v.color.bg};
 `;

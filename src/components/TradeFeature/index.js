@@ -1,7 +1,7 @@
 import AppDemo from '../../images/app-3.c8673836.png';
 import Porsche from '../../images/porche-front.acc2162e.png';
 import { SectionTitle, Paragraph, Container } from '../../styles/helpers';
-import { DemoImage, Grid, Images, MainImage } from './styles';
+import { DemoImage, Grid, Images, MainImage, TextColumn } from './styles';
 import {
   sectionTitleAnims,
   paragraphAnims,
@@ -20,7 +20,7 @@ export default function TradeFeature() {
             <DemoImage {...DemoAnim} src={AppDemo} />
           </Images>
         </motion.div>
-        <div>
+        <TextColumn>
           <SectionTitle {...sectionTitleAnims}>
             TRADE IN YOUR CAR EVERY MONTH.
           </SectionTitle>
@@ -28,7 +28,7 @@ export default function TradeFeature() {
             Use Eleanor Trade-In Credits to trade in your vehicle for something
             else in our luxurious inventory. Nothing says “June” like a new car!
           </Paragraph>
-        </div>
+        </TextColumn>
       </Grid>
     </Container>
   );

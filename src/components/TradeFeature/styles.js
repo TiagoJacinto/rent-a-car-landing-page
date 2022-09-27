@@ -3,7 +3,7 @@ import { variables as v } from '../../styles/variables';
 import { motion } from 'framer-motion';
 
 export const Grid = styled.div`
-  margin-top: 400px;
+  margin-top: 300px;
   display: flex;
   flex-direction: column-reverse;
   @media (min-width: ${v.ds.laptop}) {
@@ -37,11 +37,19 @@ export const DemoImage = styled(motion.img)`
 export const Images = styled.div`
   position: relative;
   background-color: ${v.color.bg};
-  padding-block: 420px;
-  width: 70%;
-  padding-inline: 100px;
+  padding-block: 150px;
+  width: 75%;
+  padding-inline: 30px;
   @media (min-width: ${v.ds.laptop}) {
+    padding-inline: 100px;
+    padding-block: 420px;
     width: 100%;
     padding-inline: 120px;
+  }
+`;
+
+export const TextColumn = styled.div`
+  @media (max-width: ${v.ds.laptop}) {
+    margin-bottom: ${v.size.medium};
   }
 `;

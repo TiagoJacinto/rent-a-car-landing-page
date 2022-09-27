@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { variables as v } from '../../styles/variables';
 
 export const Grid = styled.div`
-  margin-top: 350px;
+  margin-top: 200px;
   @media (min-width: ${v.ds.laptop}) {
     margin-top: 500px;
   }
