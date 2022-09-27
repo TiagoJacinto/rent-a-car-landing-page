@@ -124,4 +124,9 @@ export const Arrows = styled(motion.div)`
     cursor: pointer;
     width: 50px;
   }
+  @media (max-width: ${v.ds.tablet}) {
+    & > img {
+      width: 30px;
+    }
+  }
 `;
