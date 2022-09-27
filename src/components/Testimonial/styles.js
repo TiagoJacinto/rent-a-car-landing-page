@@ -8,11 +8,11 @@ export const Grid = styled.div`
   display: flex;
   flex-direction: column-reverse;
   @media (min-width: ${v.ds.laptop}) {
+    margin-block: 150px 60px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 5%;
   }
-  padding-bottom: 550px;
 `;
 
 export const MainImage = styled(motion.img)`

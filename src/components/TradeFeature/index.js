@@ -20,7 +20,7 @@ export default function TradeFeature() {
             <DemoImage {...DemoAnim} src={AppDemo} />
           </Images>
         </motion.div>
-        <div style={{ marginBottom: '125px' }}>
+        <div>
           <SectionTitle {...sectionTitleAnims}>
             TRADE IN YOUR CAR EVERY MONTH.
           </SectionTitle>

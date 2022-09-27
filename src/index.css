@@ -23,6 +23,7 @@ html:focus-within {
 
 html,
 body {
+  overflow-x: hidden;
   height: 100%;
 }
 

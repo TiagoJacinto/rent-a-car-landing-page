@@ -18,7 +18,7 @@ export default function DeliverFeature() {
   return (
     <Container>
       <Grid>
-        <div style={{ marginTop: '50px' }}>
+        <div>
           <SectionTitle {...sectionTitleAnims}>
             DELIVERED TO YOUR DOOR.
           </SectionTitle>

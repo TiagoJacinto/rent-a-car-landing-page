@@ -1,6 +1,6 @@
 export const variables = {
   fs: {
-    small: '0.6rem',
+    small: '0.8rem',
     medium: '1.5rem',
     large: '1.9rem',
     largeLarger: '2.5rem',
@@ -28,6 +28,7 @@ export const variables = {
   },
   color: {
     bg: '#FBC843',
+    lightGrayBg: '#F4F4F5',
     txt: '#414A69',
     txtDark: '#2B3144',
     txtLight: '#4B5168',

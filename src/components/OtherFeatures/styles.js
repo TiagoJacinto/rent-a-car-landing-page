@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 
 export const Grid = styled.div`
   @media (min-width: ${v.ds.laptop}) {
+    margin-top: 150px;
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
@@ -28,11 +29,19 @@ export const GridItem = styled(motion.div)`
 
 export const Title = styled.h1`
   font-family: ${v.ff.title};
-  font-size: ${v.fs.large};
+  color: ${v.color.txt};
+  font-size: ${v.fs.larger};
+  @media (min-width: ${v.ds.laptop}) {
+    font-size: ${v.fs.large};
+  }
+  @media (max-width: ${v.ds.mobile}) {
+    font-size: ${v.fs.large};
+  }
 `;
 
 export const Paragraph = styled.p`
   font-family: ${v.ff.default};
+  font-size: ${v.fs.medium};
 `;
 
 export const Image = styled.img`

@@ -1,14 +1,15 @@
 import styled from 'styled-components';
 import { variables as v } from '../../styles/variables';
+import { Container as ContainerH } from '../../styles/helpers';
 
 export const FooterWrapper = styled.div`
   padding-block: ${v.size.smaller} ${v.size.small};
 
-  @media (min-width: ${v.ds.tablet}) {
+  @media (min-width: ${v.ds.laptop}) {
     justify-content: space-between;
     display: flex;
   }
-  @media (max-width: ${v.ds.tablet}) {
+  @media (max-width: ${v.ds.laptop}) {
     & > * {
       margin-inline: auto;
       text-align: center;

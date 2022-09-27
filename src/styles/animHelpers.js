@@ -27,3 +27,10 @@ export const containerAnims = {
   whileInView: { width: '100%' },
   transition: DEFAULT_TRANSITION_DURATION,
 };
+
+export const carsAnims = {
+  initial: { x: '-100%', opacity: 0 },
+  whileInView,
+  transition: { ...DEFAULT_TRANSITION_DURATION, ...DEFAULT_TRANSITION_DELAY },
+  viewport,
+};
