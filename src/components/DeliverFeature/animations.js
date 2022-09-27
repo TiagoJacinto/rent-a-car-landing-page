@@ -19,7 +19,7 @@ export const CarAnims = {
 };
 
 export const DemoAnims = {
-  initial: { y: '-30%', opacity: 0 },
+  initial: { y: '-20%', opacity: 0 },
   viewport,
   whileInView,
   transition: { delay: 1.5, ...DEFAULT_TRANSITION_DURATION },

@@ -111,11 +111,7 @@ export default function SelectCar() {
                       </CarSpec>
                     </motion.div>
 
-                    <CarImage
-                      {...carImageAnims}
-                      transition={{ ease: 'easeInOut' }}
-                      src={car.image}
-                    />
+                    <CarImage {...carImageAnims} src={car.image} />
                   </motion.div>
                 )
             )}
