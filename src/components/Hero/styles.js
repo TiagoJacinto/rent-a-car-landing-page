@@ -4,6 +4,7 @@ import { Container as CH, Title as TH } from '../../styles/helpers';
 import { motion } from 'framer-motion';
 
 export const Container = styled(CH)`
+  width: 100%;
   background-color: ${v.color.bg};
   padding-bottom: 300px;
 `;
@@ -15,14 +16,6 @@ export const Title = styled(TH)`
     line-height: ${v.size.large};
     font-size: ${v.fs.largest};
   }
-`;
-
-export const SubTitle = styled.h2`
-  display: flex;
-  gap: ${v.size.smallest};
-  color: ${v.color.txt};
-  font-weight: ${v.fw.semiBold};
-  font-family: ${v.ff.default};
 `;
 
 export const LeftCol = styled.div`

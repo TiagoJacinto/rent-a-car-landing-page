@@ -1,33 +1,34 @@
-const DEFAULT_TRANSITION_DURATION = { duration: 0.5 };
-const DEFAULT_TRANSITION_DELAY = { delay: 0.5 };
+const DEFAULT_TRANSITION_DURATION = { duration: 0.7 };
+const DEFAULT_TRANSITION_DELAY = { delay: 0.7 };
 
 const viewport = { once: true };
-const animate = { x: 0, y: 0 };
-
-export const containerAnims = {
-  initial: { width: '90%' },
-  animate: { width: '100%' },
-  transition: DEFAULT_TRANSITION_DURATION,
-  viewport,
-};
+const animate = { x: 0, y: 0, opacity: 1 };
 
 export const textAnims = {
-  initial: { y: '-300%' },
+  initial: { opacity: 0, y: '-400%' },
   animate,
-  transition: { ...DEFAULT_TRANSITION_DURATION, ...DEFAULT_TRANSITION_DELAY },
+  transition: {
+    ...DEFAULT_TRANSITION_DURATION,
+    ...DEFAULT_TRANSITION_DELAY,
+    ease: 'easeOut',
+  },
   viewport,
 };
 
 export const carsAnims = {
-  initial: { x: '-200%' },
+  initial: { opacity: 0, x: '-200%' },
   animate,
   transition: DEFAULT_TRANSITION_DURATION,
   viewport,
 };
 
 export const appDemoAnims = {
-  initial: { x: '300%' },
+  initial: { opacity: 0, x: '400%' },
   animate,
-  transition: { ...DEFAULT_TRANSITION_DURATION, ...DEFAULT_TRANSITION_DELAY },
+  transition: {
+    ...DEFAULT_TRANSITION_DURATION,
+    ...DEFAULT_TRANSITION_DELAY,
+    ease: 'easeOut',
+  },
   viewport,
 };
