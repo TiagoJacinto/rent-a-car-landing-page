@@ -19,13 +19,13 @@ import {
   carsAnims,
 } from '../../styles/animHelpers';
 export default function Testimonial() {
-  const isLaptop = useMediaQuery({ query: `(min-width: ${v.ds.laptop})` });
+  const isDesktop = useMediaQuery({ query: `(min-width: ${v.ds.desktop})` });
   return (
     <Container>
       <Grid>
         <Images {...containerAnims}>
           <MainImage {...carsAnims} src={Customer} />
-          {isLaptop && <CarImage {...carsAnims} src={Car} />}
+          {isDesktop && <CarImage {...carsAnims} src={Car} />}
         </Images>
         <TextColumn {...sectionTitleAnims}>
           <SectionTitle>CUSTOMERS WITH THAT NEW CAR SMELL.</SectionTitle>

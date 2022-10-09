@@ -5,7 +5,7 @@ const viewport = { once: true };
 const whileInView = { opacity: 1, y: 0, x: 0 };
 
 export const MapAnims = {
-  initial: { width: '30%' },
+  initial: { width: '50%' },
   whileInView: { width: '100%' },
   viewport,
   transition: DEFAULT_TRANSITION_DURATION,
