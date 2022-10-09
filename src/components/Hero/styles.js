@@ -4,9 +4,11 @@ import { Container as CH, Title as TH } from '../../styles/helpers';
 import { motion } from 'framer-motion';
 
 export const Container = styled(CH)`
-  width: 100%;
+  height: 50vh;
+  @media (min-width: ${v.ds.tablet}) {
+    height: 100vh;
+  }
   background-color: ${v.color.bg};
-  padding-bottom: 300px;
 `;
 
 export const Title = styled(TH)`
@@ -21,23 +23,25 @@ export const Title = styled(TH)`
 export const LeftCol = styled.div`
   position: relative;
   @media (min-width: ${v.ds.laptop}) {
-    width: 45%;
+    width: 65%;
   }
 `;
 
 export const CarImg = styled.img`
   position: absolute;
-  top: 200px;
+  top: 300px;
+  @media (min-width: ${v.ds.tablet}) {
+    top: 400px;
+  }
   width: ${({ pos }) => (pos === 'middle' ? '65%' : '60%')};
 
   translate: ${({ pos }) =>
     pos === 'left' ? '0' : pos === 'right' ? '75%' : '30%'};
 
   @media (min-width: ${v.ds.laptop}) {
-    top: 200px;
-    width: ${({ pos }) => (pos === 'middle' ? '100%' : '90%')};
+    width: ${({ pos }) => (pos === 'middle' ? '80%' : '75%')};
     translate: ${({ pos }) =>
-      pos === 'left' ? '0' : pos === 'right' ? '75%' : '30%'};
+      pos === 'left' ? '-13%' : pos === 'right' ? '58%' : '13%'};
   }
 `;
 
@@ -50,5 +54,12 @@ export const AppDemo = styled(motion.img)`
 
 export const Cars = styled(motion.div)`
   position: relative;
+  bottom: 200px;
+  @media (min-width: ${v.ds.laptop}) {
+    bottom: 350px;
+  }
+  @media (min-width: ${v.ds.desktop}) {
+    bottom: 300px;
+  }
   width: 100%;
 `;
