@@ -1,6 +1,5 @@
-import styled from 'styled-components';
-import { variables as v } from '../../styles/variables';
-import { Container as ContainerH } from '../../styles/helpers';
+import styled from "styled-components";
+import { variables as v } from "../../styles/variables";
 
 export const FooterWrapper = styled.div`
   padding-block: ${v.size.smaller} ${v.size.small};

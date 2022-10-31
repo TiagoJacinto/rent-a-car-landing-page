@@ -1,13 +1,13 @@
-import MonthlyPrice from '../../images/coin.39ba494c.svg';
-import Insurance from '../../images/document.31e848e2.svg';
-import Maintenance from '../../images/wrench.0772f3e4.svg';
-import { Grid, GridItem, Title, Paragraph, Image } from './styles';
-import { Container } from '../../styles/helpers';
+import MonthlyPrice from "../../images/coin.39ba494c.svg";
+import Insurance from "../../images/document.31e848e2.svg";
+import Maintenance from "../../images/wrench.0772f3e4.svg";
+import { Grid, GridItem, Title, Paragraph, Image } from "./styles";
+import { Container } from "../../styles/helpers";
 import {
   monthlyPriceAnims,
   insuranceAnims,
   maintenanceAnims,
-} from './animations';
+} from "./animations";
 
 export default function OtherFeatures() {
   return (

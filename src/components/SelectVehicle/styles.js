@@ -1,11 +1,11 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 import {
   Container as ContainerH,
   Title as TitleH,
   Paragraph as ParagraphH,
-} from '../../styles/helpers';
-import { variables as v } from '../../styles/variables';
-import { motion } from 'framer-motion';
+} from "../../styles/helpers";
+import { variables as v } from "../../styles/variables";
+import { motion } from "framer-motion";
 
 export const Container = styled(ContainerH)`
   margin-top: 100px;
@@ -49,7 +49,7 @@ export const Car = styled(motion.div)`
 
   &::after {
     z-index: -10;
-    content: '';
+    content: "";
     left: 0;
     position: absolute;
     height: 40%;

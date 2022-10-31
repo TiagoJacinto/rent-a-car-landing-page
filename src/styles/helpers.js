@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import { variables as v } from './variables';
-import { motion } from 'framer-motion';
+import styled from "styled-components";
+import { variables as v } from "./variables";
+import { motion } from "framer-motion";
 
 export const Container = styled(motion.div)`
   position: relative;

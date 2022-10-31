@@ -1,7 +1,7 @@
-import styled from 'styled-components';
-import { variables as v } from '../../styles/variables';
-import { Container as CH, Title as TH } from '../../styles/helpers';
-import { motion } from 'framer-motion';
+import styled from "styled-components";
+import { variables as v } from "../../styles/variables";
+import { Container as CH, Title as TH } from "../../styles/helpers";
+import { motion } from "framer-motion";
 
 export const Container = styled(CH)`
   height: 50vh;
@@ -33,15 +33,15 @@ export const CarImg = styled.img`
   @media (min-width: ${v.ds.tablet}) {
     top: 400px;
   }
-  width: ${({ pos }) => (pos === 'middle' ? '65%' : '60%')};
+  width: ${({ pos }) => (pos === "middle" ? "65%" : "60%")};
 
   translate: ${({ pos }) =>
-    pos === 'left' ? '0' : pos === 'right' ? '75%' : '30%'};
+    pos === "left" ? "0" : pos === "right" ? "75%" : "30%"};
 
   @media (min-width: ${v.ds.laptop}) {
-    width: ${({ pos }) => (pos === 'middle' ? '80%' : '75%')};
+    width: ${({ pos }) => (pos === "middle" ? "80%" : "75%")};
     translate: ${({ pos }) =>
-      pos === 'left' ? '-13%' : pos === 'right' ? '58%' : '13%'};
+      pos === "left" ? "-13%" : pos === "right" ? "58%" : "13%"};
   }
 `;
 

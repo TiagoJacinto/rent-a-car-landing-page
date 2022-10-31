@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import { variables as v } from '../../styles/variables';
-import { motion } from 'framer-motion';
+import styled from "styled-components";
+import { variables as v } from "../../styles/variables";
+import { motion } from "framer-motion";
 
 export const Grid = styled.div`
   margin-top: 300px;

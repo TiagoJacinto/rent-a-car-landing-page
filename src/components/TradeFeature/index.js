@@ -1,14 +1,14 @@
-import AppDemo from '../../images/app-3.c8673836.png';
-import Porsche from '../../images/porche-front.acc2162e.png';
-import { SectionTitle, Paragraph, Container } from '../../styles/helpers';
-import { DemoImage, Grid, Images, MainImage, TextColumn } from './styles';
+import AppDemo from "../../images/app-3.c8673836.png";
+import Porsche from "../../images/porche-front.acc2162e.png";
+import { SectionTitle, Paragraph, Container } from "../../styles/helpers";
+import { DemoImage, Grid, Images, MainImage, TextColumn } from "./styles";
 import {
   sectionTitleAnims,
   paragraphAnims,
   containerAnims,
-} from '../../styles/animHelpers';
-import { DemoAnim } from './animations';
-import { motion } from 'framer-motion';
+} from "../../styles/animHelpers";
+import { DemoAnim } from "./animations";
+import { motion } from "framer-motion";
 
 export default function TradeFeature() {
   return (
